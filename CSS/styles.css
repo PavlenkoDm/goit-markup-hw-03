@@ -41,11 +41,15 @@ ul {
 .conteiner {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    max-width: 1200px;
+    width: 1200px;
     padding: 0 15px;
     /* outline: 2px dashed tomato; */
 }
+
+.visually-hidden {
+    visibility: hidden;
+}
+
 
 .section {
     padding-top: 94px;
@@ -233,6 +237,8 @@ ul {
 }
 
 .features-titles-list {
+    margin-bottom: 10px;
+
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -267,6 +273,10 @@ ul {
     margin-right: 30px;
 }
 
+.wwd-list-item img {
+    display: block;
+}
+
 
 /* Team */
 .team-section {
@@ -294,7 +304,7 @@ ul {
 }
 
 .team-list-item-img {
-    margin-bottom: 30px;
+    display: block;
 }
 
 .team-title-members {
@@ -314,7 +324,12 @@ ul {
     text-align: center;
 }
 
-
+.team-list-item-membdescr {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* Portfolio Filter*/
 .p-filter-list-flex {
@@ -329,8 +344,10 @@ ul {
 
 .button-filter {
     display: block;
-    min-width: 73px;
-    min-height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -349,8 +366,10 @@ ul {
 }
 
 .b-f-util {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .button-filter:hover, 
@@ -372,12 +391,25 @@ ul {
 
 .portfolio-list-item {
     /* flex-basis: calc((100%-60px) / 3); */
-    border-bottom: 1px solid #EEEEEE;
-    padding-bottom: 20px;
+    /* border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 20px; */
 }
 
 .portfolio-list-item-img {
-    margin-bottom: 20px;
+    display: block;
+    /* margin-bottom: 20px; */
+}
+
+.portfolio-list-item-titdes {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-right: 1px solid #EEEEEE;;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+
 }
 
 .portfolio-titles-list {
